@@ -1,0 +1,157 @@
+@font-face {
+  font-family: MontserratS;
+  src: url(../Montserrat/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: MontserratB;
+  src: url(../Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: MontserratM;
+  src: url(../Montserrat/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: MontserratR;
+  src: url(../Montserrat/Montserrat-Regular.ttf);
+}
+
+body {
+  width: 400px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.block3 {
+  height: 504px;
+  width: 100%;
+  border: 2px solid #F2F4F3;
+  border-radius: 10px;
+  padding: 24px 0px 24px 0px;
+  margin: 0px;
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hjk{
+  margin: 0px 114px 0px 5px;
+}
+
+.h1_semibold {
+  font-family: MontserratS;
+  font-size: 20px;
+}
+
+.h1_bold {
+  font-family: MontserratB;
+  font-size: 20px;
+}
+
+.h1_regular {
+  font-family: MontserratR;
+  font-size: 20px;
+}
+
+.h2_regular {
+  font-family: MontserratR;
+  font-size: 18px;
+}
+
+.ava {
+  width: 48px;
+  height: 48px;
+}
+
+.profile {
+  width: 100%;
+  height: 64px;
+  background-color: #F2F4F3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 16px;
+}
+
+.prime_plane{
+  width: 368px;
+  height: 56px;
+  border-radius: 10px;
+  border: 2px solid #0DE2BC;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.fynction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.fynction_button{
+  width: 368px;
+  height: 48px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #ABECD6 0%, #0DE2BC 100%);
+  border: 0px;
+}
+
+.choose_color {
+  width: 368px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.choose_color_button{
+  width: 270px;
+  height: 48px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #ABECD6 0%, #0DE2BC 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.drop_down_color {
+  width: 74px;
+  height: 48px;
+  border: 1px solid #0DE2BC;
+  border-radius: 10px;
+}
+
+.color{
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+}
+
+.yellow{
+  background-color: #FFCE4F;
+}
+
+.blue{
+  background-color: #0CDBDB;
+}
+
+.pink{
+  background-color: #FD8EFF;
+}
+
+.green{
+  background-color: #0DE2BC;
+}

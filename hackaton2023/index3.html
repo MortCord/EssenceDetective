@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style3.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	<title>Chrome_extension3</title>
+</head>
+<body>
+	<div class="block3">
+		<div class="d-flex flex-row justify-content-around">
+			<img class="logo1" src="img/Logo1.svg" alt="Logo1">
+			<div class="h1_semibold hjk">Essence Detective</div>
+			<button type="button" class="btn-close" aria-label="Close"></button>
+		</div>
+		<div class="profile">
+			<img class="ava" src="img/Ava.svg" alt="Ava">
+			<div class="h1_semibold">Олександра</div>
+		</div>
+		<div class="prime_plane oform">
+			<div class="h1_regular">Преміум план</div>
+		</div>
+		<div class="fynction">
+			<a href="index4_prem.html"><button  class="fynction_button prime">
+				<div class="h2_regular">Визначення сутностей резюме</div>
+			</button></a>
+			<a href="index5-prem.html"><button  class="fynction_button prime">
+				<div class="h2_regular">Перевірка резюме</div>
+			</button></a>
+			<a href="index6.html"><button onclick="window.location.href='index6.html'" class="fynction_button prime">
+				<div class="h2_regular">Створення резюме</div>
+			</button></a>
+			<div class="choose_color">
+				<div class="choose_color_button prime">
+					<div class="h2_regular">Змінна кольорової теми</div>
+				</div>
+				<div class="dropdown">
+					<button class="drop_down_color oform d-flex justify-content-around align-items-center" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+					  <div class="color prime"></div>
+					  <img src="./img/Icon.png" alt="">
+					</button>
+					<ul class="dropdown-menu">
+					  <li onclick="localStorage.setItem('color','#FFCE4F');window.location.href='index3.html'"><a class="dropdown-item" href="#"><div id="yellow" class="color yellow"></div></a></li>
+					  <li onclick="localStorage.setItem('color','#0CDBDB');window.location.href='index3.html'"><a class="dropdown-item" href="#"><div id="blue" class="color blue"></div></a></li>
+					  <li onclick="localStorage.setItem('color','#FD8EFF');window.location.href='index3.html'"><a class="dropdown-item" href="#"><div id="pink" class="color pink"></div></a></li>
+					  <li onclick="localStorage.setItem('color','#0DE2BC');window.location.href='index3.html'"><a class="dropdown-item" href="#"><div id="green" class="color green"></div></a></li>
+					</ul>
+				  </div>
+			</div>
+		</div>
+	</div>
+	<script src="./js/index3.js"></script>
+	<script src="./js/bootstrap.js"></script>
+</body>
+</html>
